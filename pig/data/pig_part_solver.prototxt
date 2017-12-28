@@ -1,0 +1,14 @@
+train_net: "/home/minfeng.zhan/workspace/release/pig/deploy/pig_part_deploy_train_fix_channel.prototxt"
+base_lr: 9.99999974738e-06
+display: 1000
+max_iter: 10000
+lr_policy: "step"
+gamma: 0.10000000149
+momentum: 0.899999976158
+weight_decay: 0.000500000023749
+stepsize: 1000
+snapshot: 200
+snapshot_prefix: "/home/minfeng.zhan/workspace/release/pig/model/finetune_pig_on_bird"
+solver_mode: GPU
+iter_size: 1
+type: "SGD"
